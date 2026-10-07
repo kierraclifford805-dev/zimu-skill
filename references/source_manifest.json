@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-07",
+  "source_filename": "爆款选题入库转逐字稿 副本_子牧_表格 (1).csv",
+  "source_sha256": "28180eff576929da8d83713a459c83363a222a4030c5e1b7e19b2de0fec503fe",
+  "fields": [
+    "标题",
+    "直接转逐字稿"
+  ],
+  "records": 116,
+  "nonempty_transcripts": 116,
+  "duplicate_full_transcripts": 0,
+  "transcript_characters": 77105,
+  "id_convention": "Z001 = first data row after CSV header; CSV record ordinal = ID number + 1; not physical line numbers",
+  "evidence_type": "User supplied unverified transcripts; no video, dates, links or performance fields in the schema. URLs may occur inside titles.",
+  "reading_scope": {
+    "all_records": "Indexed; transcript heads and tails reviewed; exact-substring statistics computed over complete raw texts.",
+    "full_read_ids": [
+      "Z001",
+      "Z002",
+      "Z004",
+      "Z009",
+      "Z010",
+      "Z022",
+      "Z023",
+      "Z027",
+      "Z032",
+      "Z034",
+      "Z037",
+      "Z049",
+      "Z060",
+      "Z061",
+      "Z062",
+      "Z068",
+      "Z069",
+      "Z074",
+      "Z083",
+      "Z086",
+      "Z091",
+      "Z098",
+      "Z115"
+    ],
+    "sampled_long_record": {
+      "id": "Z036",
+      "offsets": [
+        0,
+        3200,
+        6500,
+        9600,
+        12400
+      ],
+      "chars_per_excerpt": 650
+    }
+  },
+  "default_statistics_exclude": [
+    "Z036"
+  ],
+  "exclusion_reason": "Z036 is a 13195-character annual retrospective with conversational repetition; excluded only from short-form-oriented statistics, retained in corpus and all-record statistics. Remaining records are not a pure genre classification.",
+  "related_records": [
+    {
+      "ids": [
+        "Z108",
+        "Z109",
+        "Z110",
+        "Z111"
+      ],
+      "note": "Compilation and installments overlap by topic and text; not independent samples."
+    }
+  ],
+  "limitations": [
+    "Not a representative random sample of the entire account.",
+    "Transcription errors and possible inserted dialogue remain unchanged.",
+    "Phrase prevalence is not distinctiveness against other creators or proof of performance.",
+    "CSV order does not establish publication chronology."
+  ]
+}
